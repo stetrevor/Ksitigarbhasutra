@@ -1,0 +1,21 @@
+{
+  "name": "Sutra of the Fundamental Vows of the Bodhisattva Kṣitigarbha (Simplified Chinese)",
+  "short_name": "Kṣitigarbhasūtra",
+  "description": "Kṣitigarbhasūtra in Simplified Chinese that's easy on the eyes.",
+  "icons": [
+    {
+      "src": "./img/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f7ebde",
+  "theme_color": "#f7ebde"
+}
