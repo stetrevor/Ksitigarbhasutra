@@ -1,8 +1,9 @@
 const { GenerateSW } = require('workbox-webpack-plugin')
 
+const dev = process.env.NODE_ENV === 'development'
+
 module.exports = {
-  publicPath:
-    process.env.NODE_ENV === 'development' ? '/Ksitigarbhasutra/' : '',
+  publicPath: dev ? '/Ksitigarbhasutra/' : '',
 
   chainWebpack: config => {
     config.module
@@ -16,6 +17,8 @@ module.exports = {
   },
 
   configureWebpack: {
-    plugins: [new GenerateSW()],
+    plugins: [
+      new GenerateSW(dev ? { skipWaiting: true, clientsClaim: true } : {}),
+    ],
   },
 }
