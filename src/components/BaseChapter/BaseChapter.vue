@@ -151,6 +151,16 @@ export default {
       display: grid;
       grid-template-columns: repeat(2, max-content);
     }
+
+    .inline-paragraph {
+      p {
+        margin: 0;
+      }
+    }
+
+    pre {
+      white-space: pre-wrap;
+    }
   }
 }
 
