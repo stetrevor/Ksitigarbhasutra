@@ -1,7 +1,8 @@
 const { GenerateSW } = require('workbox-webpack-plugin')
 
 module.exports = {
-  publicPath: '',
+  publicPath:
+    process.env.NODE_ENV === 'development' ? '/Ksitigarbhasutra/' : '',
 
   chainWebpack: config => {
     config.module

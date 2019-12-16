@@ -2327,7 +2327,7 @@ date-now@^0.1.4:
 
 de-indent@^1.0.2:
   version "1.0.2"
-  resolved "https://registry.npm.taobao.org/de-indent/download/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
+  resolved "https://registry.yarnpkg.com/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   version "2.6.9"
@@ -7421,8 +7421,8 @@ vue-style-loader@^4.1.0:
     loader-utils "^1.0.2"
 
 vue-template-compiler@^2.6.10:
-  version "2.6.10"
-  resolved "https://registry.npm.taobao.org/vue-template-compiler/download/vue-template-compiler-2.6.10.tgz#323b4f3495f04faa3503337a82f5d6507799c9cc"
+  version "2.6.11"
+  resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.6.11.tgz#c04704ef8f498b153130018993e56309d4698080"
   dependencies:
     de-indent "^1.0.2"
     he "^1.1.0"
