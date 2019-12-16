@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <h1 class="home__title">妙法莲华经</h1>
-    <h2 class="home__author">姚秦 · 三藏法师 · 鸠摩罗什 译</h2>
+    <h1 class="home__title">地藏菩萨本愿经</h1>
 
     <TableOfContents />
 
@@ -42,7 +41,7 @@ export default {
   margin: 1.999em 1em;
 
   &__title {
-    font-size: 13vw;
+    font-size: (100vw / 10);
     font-weight: normal;
     letter-spacing: 0.15em;
     text-align: center;
