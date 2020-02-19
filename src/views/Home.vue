@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1 class="home__title">地藏菩萨本愿经</h1>
+    <h1 class="home__title">无量义经</h1>
 
     <TableOfContents />
 
