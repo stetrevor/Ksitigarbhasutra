@@ -11,23 +11,10 @@
 </template>
 
 <script>
+import { titles } from '@/data.json'
+
 export default {
   data() {
-    const titles = [
-      '忉利天宫神通品第一',
-      '分身集会品第二',
-      '观众生业缘品第三',
-      '阎浮众生业感品第四',
-      '地狱名号品第五',
-      '如来赞叹品第六',
-      '利益存亡品第七',
-      '阎罗王众赞叹品第八',
-      '称佛名号品第九',
-      '校量布施功德缘品第十',
-      '地神护法品第十一',
-      '见闻利益品第十二',
-      '嘱累人天品第十三',
-    ]
     return {
       chapters: titles.map((t, i) => ({
         route: `/chapter/${i + 1}`,
