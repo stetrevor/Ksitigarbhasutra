@@ -8456,10 +8456,10 @@ vm-browserify@^1.0.1:
   resolved "https://registry.npm.taobao.org/vm-browserify/download/vm-browserify-1.1.2.tgz?cache=0&sync_timestamp=1572870776965&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvm-browserify%2Fdownload%2Fvm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha1-eGQcSIuObKkadfUR56OzKobl3aA=
 
-vue-cli-plugin-sutra@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.npm.taobao.org/vue-cli-plugin-sutra/download/vue-cli-plugin-sutra-3.0.2.tgz#4630c64e6393d0516a824bc3ce4dd44787711c2e"
-  integrity sha1-RjDGTmOT0FFqgkvDzk3UR4dxHC4=
+vue-cli-plugin-sutra@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.npm.taobao.org/vue-cli-plugin-sutra/download/vue-cli-plugin-sutra-3.1.0.tgz#c1cc5aba502c09f7c2055279f9b91ab73b5a527b"
+  integrity sha1-wcxaulAsCffCBVJ5+bkatztaUns=
 
 vue-eslint-parser@^5.0.0:
   version "5.0.0"
